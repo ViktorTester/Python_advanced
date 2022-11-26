@@ -7,7 +7,7 @@ for i in range(int(input())):
 
 meanings = dict(zip(key, value))
 
-arr = [input() for j in range(int(input))]
+arr = [input() for j in range(int(input()))]
 
 for x in range(len(arr)):
     for key, value in meanings.items():
