@@ -14,7 +14,7 @@ def snowflake(side):
 
 def count(side):
     for _ in range(10):
-        diamond(side)
+        snowflake(side)
         turtle.left(35)
 
 
