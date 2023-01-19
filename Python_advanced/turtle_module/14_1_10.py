@@ -20,6 +20,5 @@ def count(side):
 count(121)
 turtle.exitonclick()
 
-# The program reads the number of rays of the web, the number n.
-# The program draws a star with n rays using turtle module.
+# The program draws a star with 12 rays.
 
