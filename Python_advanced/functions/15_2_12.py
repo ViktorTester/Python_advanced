@@ -1,5 +1,4 @@
 def mean(*args):
-
     arr = [args[i] for i in range(len(args)) if type(args[i]) in (int, float)]
 
     if len(arr) == 0:

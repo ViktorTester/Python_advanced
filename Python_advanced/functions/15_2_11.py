@@ -1,5 +1,4 @@
 def sq_sum(*args):
-
     arr = [args[i] ** 2 for i in range(len(args))]
     return sum(arr)
 
