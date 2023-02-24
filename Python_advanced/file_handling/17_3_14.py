@@ -1,4 +1,4 @@
-with open('population.txt', 'r') as file:
+with open('population.txt', 'r', encoding='utf-8') as file:
     text = [line.strip().split('\t') for line in file.readlines()]
 
     for country in text:
