@@ -12,5 +12,19 @@ for i in range(n):
 
 print(total)
 
+# improved
+
+matrix = []
+total = 0
+
+for i in range(n := int(input())):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+
+for x in range(n):
+    total += matrix[x][x]
+
+print(total)
+
 # The trace of a square matrix is the sum of the elements of the main diagonal.
 # The program prints the trace of the given square matrix.
