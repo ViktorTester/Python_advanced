@@ -20,6 +20,25 @@ for x in range(len(arr)):
     else:
         print("user not found")
 
+# improved
+
+d = {}
+for i in range(int(input())):
+    data = input().split()
+    if data[1] not in d.keys():
+        d[data[1]] = [data[0]]
+    else:
+        d[data[1]] += [data[0]]
+
+for j in range(int(input())):
+    name = input()
+    if name in d.keys():
+        for key, value in d.items():
+            if key == name:
+                print(*value)
+    else:
+        print('user not found')
+
 # The boy wrote down the phone numbers of all his friends
 # in order to automate the search for the right number.
 
