@@ -34,4 +34,3 @@ assert get_sum(14) == 28
 assert get_sum() == 0
 assert get_sum(43, 5, 43, 43, 43, 43, 3, 2) == 450
 print('Good')
-
